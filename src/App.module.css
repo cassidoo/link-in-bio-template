@@ -1,0 +1,9 @@
+.App {
+  margin: 20px;
+  text-align: center;
+}
+
+.propic {
+  border-radius: 50%;
+  max-width: 100px;
+}
