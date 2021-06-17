@@ -12,7 +12,7 @@ function getPageContent() {
     envVars.splice(profilePicIndex, 1)
   }
 
-  const name = envVars.find((val) => val[0] === 'VITE_NAME')[1]
+  const name = envVars.find((val) => val[0] === 'VITE_NAME')[1].replace(/_/g, ' ')
   const nameIndex = envVars.findIndex((val) => val[0] === 'VITE_NAME')
 
   if (nameIndex !== -1) {
