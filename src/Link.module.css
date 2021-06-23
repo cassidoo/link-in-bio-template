@@ -8,11 +8,11 @@
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  color: black;
+  color: #2c3e50;
   background: white;
 }
 
 .Link:hover {
-  background: black;
+  background: #2c3e50;
   color: white;
 }
